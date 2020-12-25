@@ -154,7 +154,7 @@ function draw()
      
     } 
 
-    //if yelllow player wins the toss
+    //if yellow player wins the toss
     if(flag===2)
     {
       stroke("yellow");
@@ -229,7 +229,7 @@ function draw()
         'p2Score': p2Score - 10 
       })
       flag=0;
-      //alert("Yellow Lost The Game")
+     
     }
     
     
@@ -281,7 +281,7 @@ function draw()
           'p2Score': p2Score + 10  
         })
         flag=0;
-        //alert("Red Lost The Game");
+        
       }
       
       
